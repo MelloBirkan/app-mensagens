@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_A_captivating_woman_top_model_profile_picture_portr_5a347b44-0494-4841-8c1e-2aff51adb6d1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "mellobirkan_A_mesmerizing_woman_top_model_profile_picture_featu_fb84e153-5852-4158-ac09-d425ff848929.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

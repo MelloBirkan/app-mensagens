@@ -15,6 +15,10 @@
 		1B142C252A3CCA62005DCC6D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C242A3CCA62005DCC6D /* SignUpView.swift */; };
 		1B142C272A3CCA80005DCC6D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C262A3CCA80005DCC6D /* ChatView.swift */; };
 		1B142C292A3CCA9F005DCC6D /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C282A3CCA9F005DCC6D /* ChatRow.swift */; };
+		1B142C2B2A3CCC4E005DCC6D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C2A2A3CCC4E005DCC6D /* SearchView.swift */; };
+		1B142C2D2A3CCFF4005DCC6D /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C2C2A3CCFF4005DCC6D /* SendButton.swift */; };
+		1B142C2F2A3CD078005DCC6D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C2E2A3CD078005DCC6D /* Message.swift */; };
+		1B142C312A3CD0AD005DCC6D /* AppStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142C302A3CD0AD005DCC6D /* AppStateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		1B142C242A3CCA62005DCC6D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		1B142C262A3CCA80005DCC6D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		1B142C282A3CCA9F005DCC6D /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		1B142C2A2A3CCC4E005DCC6D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1B142C2C2A3CCFF4005DCC6D /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
+		1B142C2E2A3CD078005DCC6D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1B142C302A3CD0AD005DCC6D /* AppStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 				1B142C242A3CCA62005DCC6D /* SignUpView.swift */,
 				1B142C262A3CCA80005DCC6D /* ChatView.swift */,
 				1B142C282A3CCA9F005DCC6D /* ChatRow.swift */,
+				1B142C2A2A3CCC4E005DCC6D /* SearchView.swift */,
+				1B142C2C2A3CCFF4005DCC6D /* SendButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +100,8 @@
 		1B142C202A3CC8F3005DCC6D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B142C2E2A3CD078005DCC6D /* Message.swift */,
+				1B142C302A3CD0AD005DCC6D /* AppStateModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,11 +186,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B142C252A3CCA62005DCC6D /* SignUpView.swift in Sources */,
+				1B142C2D2A3CCFF4005DCC6D /* SendButton.swift in Sources */,
 				1B142C232A3CCA42005DCC6D /* SignInView.swift in Sources */,
+				1B142C2F2A3CD078005DCC6D /* Message.swift in Sources */,
 				1B142C272A3CCA80005DCC6D /* ChatView.swift in Sources */,
+				1B142C2B2A3CCC4E005DCC6D /* SearchView.swift in Sources */,
 				1B142C142A3CC7EF005DCC6D /* ConversationListView.swift in Sources */,
 				1B142C292A3CCA9F005DCC6D /* ChatRow.swift in Sources */,
 				1B142C122A3CC7EF005DCC6D /* MensagensApp.swift in Sources */,
+				1B142C312A3CD0AD005DCC6D /* AppStateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

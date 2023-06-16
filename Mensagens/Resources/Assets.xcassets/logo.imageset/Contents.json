@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_A_vibrant_messaging_app_logo_inspired_by_nature_inc_967f8d0f-fdb9-4abc-bbed-b800eb5f061d.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
